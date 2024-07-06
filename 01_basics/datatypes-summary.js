@@ -37,3 +37,30 @@ const myFunction = function(){
 console.log(typeof anotherId);
 
 // link to study (https://262.ecma-international.org/5.1/#sec-11.4.3)
+
+
+//********************** */
+
+// stack (Primitive -> variable ki copy), heap (Non primitive -> variable ka reference, change into original value) memory
+
+let myYouTubename = "shrutigoyaldotcom" 
+
+let anothername = myYouTubename
+anothername = "goyalshruti"
+
+console.log(myYouTubename);
+console.log(anothername);
+
+let userOne = {
+    email: "user@google.com",
+    upi: "user@paytm"
+
+}
+
+let userTwo = userOne
+
+userTwo.email = "shruti@google.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
+ 
