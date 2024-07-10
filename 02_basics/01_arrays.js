@@ -29,7 +29,7 @@ const myArr2 = new Array(1, 2, 3, 4)
 
 console.log("A", myArr);
 
-const myn1 = myArr.slice(1,3)
+const myn1 = myArr.slice(1,4)
 console.log(myn1);
 console.log("B", myArr);
 
